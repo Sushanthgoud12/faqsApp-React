@@ -14,7 +14,7 @@ class FaqItem extends Component {
   }
 
   renderAnswer = () => {
-    const {faqDetails} = this.state
+    const {faqDetails} = this.props
     const {answerText} = faqDetails
     const {isActive} = this.state
 
